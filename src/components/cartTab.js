@@ -46,7 +46,7 @@ const CartTab = () => {
     }
 
   return (
-    <div className={`fixed top-0 right-0 bg-gray-700 shadow-2xl w-96 h-full grid grid-rows-[60px_1fr_60px] 
+    <div className={`fixed top-0 right-0 bg-gray-700 shadow-2xl w-96 h-full overflow-y-scroll grid grid-rows-[60px_1fr_60px] 
     transform transition-transform duration-500
     ${statusTab === false ? "translate-x-full" : ""}
     `}> 
